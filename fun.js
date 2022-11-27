@@ -107,11 +107,79 @@ document.getElementById("collegeno").onclick = function() {
             chatbody.append(Message)
         }
 
+        let button3 = document.createElement("button")
+        button3.innerHTML = "Extra Curricular"
+        button3.onclick = function(){
 
-        
+            const Message = document.createElement("div")
+
+            let button1 = document.createElement("button")
+            button1.innerHTML = "NSS"
+            button1.onclick = function(){ window.open("https://aissmsioit.org/nss/about-nss/") }
+            Message.append(button1)
+
+            let button2 = document.createElement("button")
+            button2.innerHTML = "Tesla Club"
+            button2.onclick = function(){ window.open("https://aissmsioit.org/tesla-club/achievements/") }
+            Message.append(button2)
+
+            let button3 = document.createElement("button")
+            button3.innerHTML = "Alacrity"
+            button3.onclick = function() { window.open("https://aissmsioit.org/alacrity/about-alacrity/")}
+            Message.append(button3)
+            
+            let button4 = document.createElement("button")
+            button4.innerHTML = "IIED Cell"
+            button4.onclick = function() { window.open("https://aissmsioit.org/iiedc/about-iied-cell/")}
+            Message.append(button4)
+            
+            let button5 = document.createElement("button")
+            button5.innerHTML = "Professional Bodies"
+            button5.onclick = function() { window.open("https://aissmsioit.org/professional-body/about-professional-body/")}
+            Message.append(button5)
+            
+            let button6 = document.createElement("button")
+            button6.innerHTML = "Iconnect Activity"
+            button6.onclick = function() { window.open("https://aissmsioit.org/iconnect-activity/about-iconnect-activity/")}
+            Message.append(button6)
+
+            chatbody.append(Message)
+        }
+
+        let button4 = document.createElement("button")
+        button4.innerHTML = "Central Library"
+        button4.onclick = function() { window.open("https://aissmsioit.org/central-library/about-central-library/") }
+
+        let button5 = document.createElement("button")
+        button5.innerHTML = "Achievements"
+        button5.onclick = function(){ 
+
+            const Message1 = document.createElement("div")
+
+            let button1 =  document.createElement("button")
+            button1.innerHTML = "Faculty Achievements"
+            button1.onclick = function() { window.open("https://aissmsioit.org/achievements/faculty-achievements/") }
+            Message1.append(button1)
+
+            let button02 =  document.createElement("button")
+            button02.innerHTML = "Student Achievements"
+            button02.onclick = function() { window.open("https://aissmsioit.org/achievements/co-curricular-activity/") }
+            Message1.append(button02)
+
+            let button03 =  document.createElement("button")
+            button03.innerHTML = "Non Teaching Staff Achievements"
+            button03.onclick = function() { window.open("https://aissmsioit.org/achievements/non-teaching-staff-achievements/") }
+            Message1.append(button03)
+
+            chatbody.append(Message1)
+
+        }
 
         message.append(button1)
         message.append(button2)
+        message.append(button3)
+        message.append(button4)
+        message.append(button5)
         chatbody.append(message)
     }
     
