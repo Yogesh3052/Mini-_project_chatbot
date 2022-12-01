@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;0,900;1,200;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border-sizing:border-box;
+    font-family:"poppins",sans-serif;
+}
+h2{
+    margin: 2px;
+    color: cornflowerblue;
+    
+}
+p{
+    text-align: center;
+}
+.container{
+    margin:20px;
+
+    width: 400px;
+    height: 600px;
+    background-color: rgb(250, 193, 193);
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px 0px black;
+    
+}
+.chat-header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    background-color: brown;
+    color: aqua;
+    border-radius: 25px 25px 0px 0px;
+    font-size: 1rem;
+    text-align: center;
+}
+.chat-header.logo{
+    height: 35px;
+    width: 40px;
+    box-shadow: black;
+}
+.chat-header img{
+    height: 100%;
+    width:100%;
+}
+.p_right{
+    
+    color:blue;
+    
+}
+.logo{
+     
+}
+.button_js{
+    background-color: rgb(103, 103, 156);
+    margin: 0%;
+    border: 0ch;
+    border-radius: 10px;
+    color: aliceblue;
+    float: left;
+    position: fixed;
+    bottom: 50px;
+    margin: 5px;
+    padding: 5px;
+    right: 25px;
+}
+.button_js_left{
+    background-color: rgb(103, 103, 156);
+    margin: 0%;
+    border: 0ch;
+    border-radius: 10px;
+    color: aliceblue;
+    float: left;
+    position: fixed;
+    bottom: 50px;
+    right: 200px;
+    margin: 5px;
+    padding: 5px;
+}
+.button_js_b3{
+    background-color: rgb(103, 103, 156);
+    margin: 0%;
+    border: 0ch;
+    border-radius: 10px;
+    color: aliceblue;
+    float: left;
+    position: fixed;
+    bottom: 70px;
+    margin: 5px;
+    padding: 5px;
+    right: 25px;
+}
+.button_js_b4{
+    background-color: rgb(103, 103, 156);
+    margin: 0%;
+    border: 0ch;
+    border-radius: 10px;
+    color: aliceblue;
+    float: left;
+    position: fixed;
+    bottom: 70px;
+    margin: 5px;
+    padding: 5px;
+    right: 150px;
+}
+.button_js_b5{
+    background-color: rgb(103, 103, 156);
+    margin: 0%;
+    border: 0ch;
+    border-radius: 10px;
+    color: aliceblue;
+    float: left;
+    position: fixed;
+    bottom: 70px;
+    margin: 5px;
+    padding: 5px;
+    right: 255px;
+}
+.button_js_b6{
+    background-color: rgb(103, 103, 156);
+    margin: 0%;
+    border: 0ch;
+    border-radius: 10px;
+    color: aliceblue;
+    float: left;
+    position: fixed;
+    bottom: 30px;
+    margin: 5px;
+    padding: 5px;
+    right: 25px;
+}
+.button_js_dep{
+    background-color: rgb(103, 103, 156);
+    margin: 0%;
+    border: 0ch;
+    border-radius: 10px;
+    color: aliceblue;
+    float: left;
+    position: fixed;
+    bottom: 70px;
+    margin: 5px;
+    padding: 5px;
+    right: 25px;
+}
+.button_js_pl{
+    background-color: rgb(103, 103, 156);
+    margin: 0%;
+    border: 0ch;
+    border-radius: 10px;
+    color: aliceblue;
+    float: left;
+    position: fixed;
+    bottom: 70px;
+    margin: 5px;
+    padding: 5px;
+    right: 130px;
+}
+.button_js_Ec{
+    background-color: rgb(103, 103, 156);
+    margin: 0%;
+    border: 0ch;
+    border-radius: 10px;
+    color: aliceblue;
+    float: left;
+    position: fixed;
+    bottom: 70px;
+    margin: 5px;
+    padding: 5px;
+    right: 227px;
+}
+.button_js_cl{
+    background-color: rgb(103, 103, 156);
+    margin: 0%;
+    border: 0ch;
+    border-radius: 10px;
+    color: aliceblue;
+    float: left;
+    position: fixed;
+    bottom: 30px;
+    margin: 5px;
+    padding: 5px;
+    right: 25px;
+}
+.button_js_a{
+    background-color: rgb(103, 103, 156);
+    margin: 0%;
+    border: 0ch;
+    border-radius: 10px;
+    color: aliceblue;
+    float: left;
+    position: fixed;
+    bottom: 30px;
+    margin: 5px;
+    padding: 5px;
+    right: 140px;
+}
+.button_js_fyes{
+    background-color: rgb(103, 103, 156);
+    margin: 0%;
+    border: 0ch;
+    border-radius: 10px;
+    color: aliceblue;
+    float: left;
+    position: fixed;
+    bottom: 200px;
+    margin: 5px;
+    padding: 5px;
+    right: 25px;
+}
+.button_js_ee{
+    background-color: rgb(103, 103, 156);
+    margin: 0%;
+    border: 0ch;
+    border-radius: 10px;
+    color: aliceblue;
+    float: left;
+    position: fixed;
+    bottom: 200px;
+    margin: 5px;
+    padding: 5px;
+    right: 250px;
+}
+.button_js_entc{
+    background-color: rgb(103, 103, 156);
+    margin: 0%;
+    border: 0ch;
+    border-radius: 10px;
+    color: aliceblue;
+    float: left;
+    position: fixed;
+    bottom: 160px;
+    margin: 5px;
+    padding: 5px;
+    right: 25px;
+}
+.button_js_aids{
+    background-color: rgb(103, 103, 156);
+    margin: 0%;
+    border: 0ch;
+    border-radius: 10px;
+    color: aliceblue;
+    float: left;
+    position: fixed;
+    bottom: 120px;
+    margin: 5px;
+    padding: 5px;
+    right: 25px;
+}
+.button_js_it{
+    background-color: rgb(103, 103, 156);
+    margin: 0%;
+    border: 0ch;
+    border-radius: 10px;
+    color: aliceblue;
+    float: left;
+    position: fixed;
+    bottom: 80px;
+    margin: 5px;
+    padding: 5px;
+    right: 25px;
+}
+.button_js_ce{
+    background-color: rgb(103, 103, 156);
+    margin: 0%;
+    border: 0ch;
+    border-radius: 10px;
+    color: aliceblue;
+    float: left;
+    position: fixed;
+    bottom: 80px;
+    margin: 5px;
+    padding: 5px;
+    right: 200px;
+}
+.button_js_ie{
+    background-color: rgb(103, 103, 156);
+    margin: 0%;
+    border: 0ch;
+    border-radius: 10px;
+    color: aliceblue;
+    float: left;
+    position: fixed;
+    bottom: 40px;
+    margin: 5px;
+    padding: 5px;
+    right: 25px;
+}
+.button_js_tp{
+    background-color: rgb(103, 103, 156);
+    margin: 0%;
+    border: 0ch;
+    border-radius: 10px;
+    color: aliceblue;
+    float: left;
+    position: fixed;
+    bottom: 40px;
+    margin: 5px;
+    padding: 5px;
+    right: 25px;
+}
+.button_js_pr{
+    background-color: rgb(103, 103, 156);
+    margin: 0%;
+    border: 0ch;
+    border-radius: 10px;
+    color: aliceblue;
+    float: left;
+    position: fixed;
+    bottom: 40px;
+    margin: 5px;
+    padding: 5px;
+    right: 145px;
+}
+.button_js_ns{
+    background-color: rgb(103, 103, 156);
+    margin: 0%;
+    border: 0ch;
+    border-radius: 10px;
+    color: aliceblue;
+    float: left;
+    position: fixed;
+    bottom: 70px;
+    margin: 5px;
+    padding: 5px;
+    right: 25px;
+}
+.button_js_tc{
+    background-color: rgb(103, 103, 156);
+    margin: 0%;
+    border: 0ch;
+    border-radius: 10px;
+    color: aliceblue;
+    float: left;
+    position: fixed;
+    bottom: 70px;
+    margin: 5px;
+    padding: 5px;
+    right: 65px;
+}
+.button_js_al{
+    background-color: rgb(103, 103, 156);
+    margin: 0%;
+    border: 0ch;
+    border-radius: 10px;
+    color: aliceblue;
+    float: left;
+    position: fixed;
+    bottom: 70px;
+    margin: 5px;
+    padding: 5px;
+    right: 150px;
+}
+.button_js_ic{
+    background-color: rgb(103, 103, 156);
+    margin: 0%;
+    border: 0ch;
+    border-radius: 10px;
+    color: aliceblue;
+    float: left;
+    position: fixed;
+    bottom: 70px;
+    margin: 5px;
+    padding: 5px;
+    right: 215px;
+}
+.button_js_pb{
+    background-color: rgb(103, 103, 156);
+    margin: 0%;
+    border: 0ch;
+    border-radius: 10px;
+    color: aliceblue;
+    float: left;
+    position: fixed;
+    bottom: 30px;
+    margin: 5px;
+    padding: 5px;
+    right: 25px;
+}
+.button_js_ia{
+    background-color: rgb(103, 103, 156);
+    margin: 0%;
+    border: 0ch;
+    border-radius: 10px;
+    color: aliceblue;
+    float: left;
+    position: fixed;
+    bottom: 30px;
+    margin: 5px;
+    padding: 5px;
+    right: 170px;
+}
+.button_js_fa{
+    background-color: rgb(103, 103, 156);
+    margin: 0%;
+    border: 0ch;
+    border-radius: 10px;
+    color: aliceblue;
+    float: left;
+    position: fixed;
+    bottom: 70px;
+    margin: 5px;
+    padding: 5px;
+    right: 25px;
+}
+.button_js_sa{
+    background-color: rgb(103, 103, 156);
+    margin: 0%;
+    border: 0ch;
+    border-radius: 10px;
+    color: aliceblue;
+    float: left;
+    position: fixed;
+    bottom: 70px;
+    margin: 5px;
+    padding: 5px;
+    right: 190px;
+}
+.button_js_ntsa{
+    background-color: rgb(103, 103, 156);
+    margin: 0%;
+    border: 0ch;
+    border-radius: 10px;
+    color: aliceblue;
+    float: left;
+    position: fixed;
+    bottom: 30px;
+    margin: 5px;
+    padding: 5px;
+    right: 25px;
+}
+.button_click{
+    background-color: black;
+}
+.button{
+    background-color: rgb(103, 103, 156);
+    padding: 5px;
+    margin: 3% 5px;
+    border: 0ch;
+    border-radius: 10px;
+
+    color: aliceblue;
+    float: right;
+}
+p{
+    
+}
+.input-section{
+    position: fixed;
+    background-color: aliceblue;
+    width: 400px;
+    height: 100px;
+    bottom: 15px;
+    border-radius: 0px 0px 25px 25px;
+    right: 20px;;
+}
+#collegeno{
+    display:block;
+}
+#collegeyes{
+    display: block;
+}
+.chat-body{
+    height:440px;
+    display:flex;
+    flex-direction: column;
+    padding:8px 10px;
+    align-items: flex-end;
+    overflow-y: auto;
+}
+.chats{
+    background-color: rgb(178, 154, 32);
+    border-radius: 10px 0px 10px 10px;
+    padding: 3px;
+    color: aliceblue;
+    margin: 3px;
+}
